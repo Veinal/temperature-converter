@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Temperature Conversion</h2>
+            <h3>Enter the temperature in Celsius</h3>
+            <span class="celsius-span">
+                <label for="inputBox" style="font-family: sans-serif;">Celsius</label>
+                <input type="number" value="" id="inputBox">
+            </span>
+            <button class="convert" onclick="convert()">
+                Convert
+            </button>
+            <span class="farenheit-span">
+                <label for="farenheit" style="font-family: sans-serif;">Farenheit:</label>
+                <input type="text" value="32.0° F" id="farenheit" readonly>
+            </span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
